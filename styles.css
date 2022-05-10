@@ -1,0 +1,31 @@
+body {
+  background: black;
+}
+
+#trafficLight {
+  background: grey;
+  width: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 40px;
+}
+
+.light {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin: 20px;
+  background: black;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
